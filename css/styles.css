@@ -176,11 +176,11 @@ a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
-.section-padding { padding: 90px 0 100px }
+.section-padding { padding: 50px 0 100px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
-.light-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
+.light-box { background-color: #D6FFC2; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
 .light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #3dc9b3; -moz-box-shadow: 0px 3px 0px 0px #3dc9b3; box-shadow: 0px 3px 0px 0px #3dc9b3; }
 .box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
@@ -237,6 +237,7 @@ Education Section
 .fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
 .responsive-services { position: relative; }
 .responsive-services li span { display: block; font-size: 10px; color: #999999;}
+.education .designs {top: 2px;}
 
 /* ==========================================================================
 Swag
@@ -286,15 +287,16 @@ CTA
 .ignite-btn { display: inline-block; padding: 25px 40px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
 .ignite-btn:hover, .ignite-btn:focus { color: #3dc9b3; border: solid 1px #3dc9b3; }
 /* ==========================================================================
-Team
+
 ========================================================================== */
 .team img { margin-bottom: 40px; }
 ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
 ul.social-buttons li:last-child { margin-right: 0; }
-.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #242830; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
+.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: white; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
 .social-btn:hover, .social-btn:focus { background: #3dc9b3; color: #fff; }
 .social { margin-top: 25px }
+.fa-instagram, .fa-github, .fa-linkedin, .fa-envelope{color: black;}
 /* ==========================================================================
 Contact
 ========================================================================== */
@@ -308,8 +310,8 @@ Contact
 Footer
 ========================================================================== */
 footer a { color: #a1a9b0; }
-footer { background-color: #242830; padding: 40px 0 30px; }
-footer p { color: #fff; }
+footer { background-color: #242830; padding: 40px 0 30px; position: relative;}
+footer p { color: #000; }
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
 ul.legals li::after { content: " |"; }
