@@ -107,7 +107,7 @@ $(document).ready(function(){
 
 $(window).load(function() {
 
-	$('#portfolioSlider').flexslider({
+	$('#experienceSlider').flexslider({
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,
